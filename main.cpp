@@ -21,10 +21,10 @@ int main()
   //tell fortune
     cout<<"Welcome, " <<first[0]<<"."<<last[0]<<".,"<<" here is your fortune..."<<endl;
    // cout<<"The variable has "<<first.length()<<" letters"<<endl;
-    cout<<"Your lucky number is "<<first.length()<<endl;
+    cout<<"your lucky number is "<<first.length()<<endl;
     if(first[0] == 'a' || first[0] == 'A' || first[0] == 'e' || first[0] == 'E' || first[0] == 'i' || first[0] == 'I' || first[0] == 'o' || first[0] == 'O' )
     {
-            cout<<" You are destined to be famous! "<<endl;
+            cout<<"you are destined to be famous! "<<endl;
     }
     else
     {
@@ -34,7 +34,7 @@ int main()
     {
             cout<<"you have already me your true love. "<<endl;
     }
-    cout<<"have a good day! "<<endl;
+    cout<<"have a good day!"<<endl;
 
     return 0;
 }
