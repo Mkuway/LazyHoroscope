@@ -13,10 +13,10 @@ int main()
     int index;
     index=last.length()-1;
   //get user input
-    cout<<"What is your first name? ";
+    cout<<"What is your first name? "<<endl;
     cin>>first;
 
-    cout<<"What is your last name? ";
+    cout<<"What is your last name? "<<endl;
     cin>>last;
   //tell fortune
     cout<<"Welcome, " <<first[0]<<last[0]<<" here is your fortune..."<<endl;
@@ -35,5 +35,6 @@ int main()
             cout<<"you have already me your true love. "<<endl;
     }
     cout<<" Have a good day! "<<endl;
+
     return 0;
 }
